@@ -1,1 +1,2 @@
-# small repo for my crappy bash scripts
+# my repo of bash scripts
+
