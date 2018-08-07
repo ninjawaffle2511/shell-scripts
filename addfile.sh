@@ -2,6 +2,7 @@
 # Written by Jack Girard, 2017
 # Easily adds a file to local GitHub repo and pushes it to GitHub
 
+#functions
 adding_file () {
 echo -n "Are you (A)dding or (U)pdating this file?: "
 read $commit
@@ -28,6 +29,7 @@ else
 fi
 }
 
+#script
 echo "--Make sure the file you want to push is in your local repo first--"
 sleep 1
 echo -n "Enter the path to the local github repo (input ./ if youre already in it): "
